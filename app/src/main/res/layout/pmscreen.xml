@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/text_color"
+    tools:context=".MainScreen">
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="411dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="112dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#F3F3F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="126dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="105dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/rainbow"
+        android:text="ACE"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="#818181"
+        android:backgroundTint="#959393"
+        app:boxBackgroundColor="#757575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050505"
+        android:backgroundTint="#BCBBBB"
+        android:hint="hint"
+        android:text="Uhhhh, good luck dude. I'm off to a fight, bye!"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="244dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="20dp"
+        android:background="#3A3939"
+        android:text="Cool right??"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="283dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="260dp"
+
+        android:background="#3A3939"
+        android:text="Hey, remember that dude I shot in the head in Coastline. Well, it turns out I'm dating her sister. I'm totally doomed. The worst thing is I'm marrying her this week. Help!"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="244dp"
+        android:layout_height="151dp"
+        android:src="@drawable/ak12"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="222dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="188dp"
+        android:background="#8F8F8F"
+        android:backgroundTint="#878787"
+        android:text="Wish I had that in my loadout!!"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="102dp"
+        android:layout_height="29dp"
+        android:text="sent 12:04 PM"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="55dp"
+        android:layout_height="27dp"
+        android:text="-IN A FIGHT-"
+        android:textColor="#EA6B6B"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="74dp"
+        android:layout_height="28dp"
+        android:text="sent 12:10 AM"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="74dp"
+        android:layout_height="28dp"
+        android:text="sent 7:04 AM"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

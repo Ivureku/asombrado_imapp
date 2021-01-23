@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/text_color"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="229dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/rainbow"
+        android:text="Welcome Operator"
+
+
+        android:textAlignment="center"
+        android:textColor="#40CA1F"
+        android:textColorHighlight="#CDB1B1"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="277dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ros" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

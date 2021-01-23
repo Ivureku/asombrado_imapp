@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/text_color"
+
+    tools:context=".Gallery">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="91dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rainbow"
+        android:text="GALLERY"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFFFFF"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="137dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="13dp"
+        android:background="#474646"
+        android:backgroundTint="#3C3C3C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider6"
+        app:srcCompat="@drawable/ak12" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="137dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:background="#474646"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/divider6"
+        app:srcCompat="@drawable/breach" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="2dp"
+        android:background="#474646"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/divider6"
+        app:srcCompat="@drawable/rainbowace" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
